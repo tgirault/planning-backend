@@ -21,7 +21,7 @@
 		<org.springframework.security.version>4.0.3.RELEASE</org.springframework.security.version>
 		<oauth.version>2.0.8.RELEASE</oauth.version>
 
-		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
+		<postgresql.version>9.4-1200-jdbc41</postgresql.version>
 		<!-- marshalling -->
 		<jackson.version>2.5.1</jackson.version>
 
