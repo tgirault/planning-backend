@@ -6,6 +6,7 @@
 	<packaging>war</packaging>
 
 	<parent>
+		<relativePath>../planning-parent</relativePath>
 		<groupId>com.girault.thomas</groupId>
 		<artifactId>planning-parent</artifactId>
 		<version>1.0.0</version>
