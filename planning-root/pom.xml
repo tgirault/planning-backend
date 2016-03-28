@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>planning-root</artifactId>
+	<packaging>pom</packaging>
+	<name>planning-root</name>
+
+	<parent>
+		<groupId>com.girault.thomas</groupId>
+		<artifactId>planning-parent</artifactId>
+		<version>1.0.0</version>
+	</parent>
+
+	<modules>
+		<module>../planning-parent</module>
+		<module>../planning-authorization-server</module>
+		<module>../planning-resource-server</module>
+	</modules>
+
+</project>
